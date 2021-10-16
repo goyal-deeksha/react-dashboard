@@ -1,0 +1,77 @@
+.toolbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.drawer-toggler {
+    display: flex;
+    border-radius: 50%;
+    background-color: white;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgb(153 153 153 / 40%);
+    margin-right: 6rem;
+    cursor: pointer;
+}
+
+.breadcrumbs {
+    font-size: large;
+    width: 50%;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+}
+.searchbar input {
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+    background-color: transparent;
+}
+.search__icon {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px 0 rgb(153 153 153 / 40%);
+    margin: 0 3rem 0 1rem;
+    cursor: pointer;
+}
+.notification {
+    font-size: 18px;
+    padding: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.profile {
+    font-size: 18px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.profile-menu {
+    position: fixed;
+    background-color: white;
+    border-radius: 4px;
+    padding: 1rem;
+    right: 50px;
+    box-shadow: 0 2px 5px 0 rgb(153 153 153 / 40%);
+    width: 18rem;
+    text-align: center;
+    margin-top: 0.9rem;
+    display: none;;
+}
+.show {
+    display: block;
+}
+.profile-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.profile-menu li {
+    list-style: none;
+    font-size: 15px;
+}

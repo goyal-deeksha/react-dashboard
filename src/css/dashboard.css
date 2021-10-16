@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.dashboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.layout {
+    padding: 2rem 5rem;
+    min-width: calc(100% - 25rem);
+    right: 0;
+    position: absolute;
+    transition: min-width 0.5s ease-in-out;
+}
+.drag {
+    min-width: calc(100% - 7rem);
+}
+.quick-rpt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 8rem;
+    justify-content: space-between;
+}
+.weekly__Rpt {
+    margin-top: 5rem;
+    width: 100%;
+    height: 50vh;
+    max-height: 50vh;
+}
+.daily__Rpt {
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer {
+    margin-top: 8rem;
+    text-align: right;
+    border-top: 1px solid #d2d2d2;
+    padding-top: 1rem;
+    color: #999;
+}
